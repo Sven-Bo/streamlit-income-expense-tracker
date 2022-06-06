@@ -13,12 +13,11 @@ To visualize the monthly spending, we will use a Sankey Chart from Plotly.
 ## Demo Website
 ⭐ https://share.streamlit.io/sven-bo/streamlit-income-expense-tracker/app.py
 
-## Screenshot
-![Screenshot](img/demo1.jpg?raw=true "Date Input")
-![Screenshot](img/demo.jpg?raw=true "Sankey Chart")
+## Demo
+![DemoGIF](demo1.gif?raw=true "DEMO")
+
 
 ## Run the app
-* Terminal
 ```
 # vanilla terminal
 streamlit run app.py
