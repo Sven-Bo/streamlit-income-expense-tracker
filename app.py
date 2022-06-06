@@ -1,12 +1,11 @@
 import calendar  # Core Python Module
 from datetime import datetime  # Core Python Module
 
+import plotly.graph_objects as go  # pip install plotly
 import streamlit as st  # pip install streamlit
 from streamlit_option_menu import option_menu  # pip install streamlit-option-menu
-import plotly.graph_objects as go  # pip install plotly
 
 import database as db  # local import
-
 
 # -------------- SETTINGS --------------
 incomes = ["Salary", "Blog", "Other Income"]
@@ -32,7 +31,6 @@ def get_all_periods():
     return periods
 
 
-
 # --- HIDE STREAMLIT STYLE ---
 hide_st_style = """
             <style>
@@ -42,7 +40,6 @@ hide_st_style = """
             </style>
             """
 st.markdown(hide_st_style, unsafe_allow_html=True)
-
 
 # --- NAVIGATION MENU ---
 selected = option_menu(
@@ -118,26 +115,3 @@ if selected == "Data Visualization":
             fig = go.Figure(data)
             fig.update_layout(margin=dict(l=0, r=0, t=5, b=5))
             st.plotly_chart(fig, use_container_width=True)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
