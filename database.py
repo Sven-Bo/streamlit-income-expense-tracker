@@ -26,3 +26,4 @@ def fetch_all_periods():
 def get_period(period):
     """If not found, the function will return None"""
     return db.get(period)
+
