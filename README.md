@@ -6,8 +6,7 @@ To visualize the monthly spending, we will use a Sankey Chart from Plotly.
 
 
 ## Video Tutorial
-..will follow soon!
-[![YouTube Video](https://img.youtube.com/vi/XXX/0.jpg)](https://youtu.be/XXX)
+[![YouTube Video](https://img.youtube.com/vi/3egaMfE9388/0.jpg)](https://youtu.be/3egaMfE9388)
 
 
 ## Demo Website
